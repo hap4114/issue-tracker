@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://issue-tracker-1gsl.onrender.com/api' });
 
 export const getIssues = (params) => API.get('/issues', { params });
 export const getIssue = (id) => API.get(`/issues/${id}`);
