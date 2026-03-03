@@ -75,4 +75,7 @@ We use three core models in MongoDB to enable dynamic project management.
 ## 🎨 Key Unique Features
 1. **Dark Mode Architecture**: Implemented via CSS Variables (`--bg-main`, `--text-main`) toggled by a high-level `.dark-theme` class on the container.
 2. **Priority Indicators**: Dual-visual system (Icon + Top-Right Color Dot) for immediate risk assessment on the board.
-3. **Optimistic Updates**: When dragging issues across columns, the UI updates instantly before the server acknowledges, ensuring zero latency for the user.
+## 🛠️ Quick Setup
+1. **Backend**: `cd backend && npm install && npm run dev`
+2. **Frontend**: `cd frontend && npm install && npm run dev`
+3. **Database**: Update the `.env` file in the backend with your `MONGO_URI`.
